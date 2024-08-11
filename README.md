@@ -12,13 +12,12 @@ Node.js with Express.js framework
 MongoDB as the database
 Mongoose as the ORM
 JSON Web Tokens (JWT) for authentication
-Swagger for API documentation
 Getting Started
 ## Installation
 Clone the repository: git clone https://github.com/your-username/asset-trading-tracker.git
 Install dependencies: npm install
 Set up environment variables: cp .env.example .env and update the values
-Start the server: node server.js
+Start the server: npm run dev
 
 ## Testing
 To run tests, use the command npm test
@@ -38,7 +37,6 @@ Express.js: A Node.js web framework for building web applications
 MongoDB: A NoSQL database for storing and retrieving data
 Mongoose: A MongoDB ORM for interacting with the database
 JSON Web Tokens (JWT): A token-based authentication system for securing API requests
-Swagger: An API documentation tool for generating API documentation
 Node.js: A JavaScript runtime environment for building server-side applications
 npm: A package manager for installing and managing dependencies
 
